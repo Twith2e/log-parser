@@ -59,9 +59,9 @@ fields: map[action:auth msg:Invalid token provided user:999]
     usage: logparser <logfile>
 ```
 
-- invalid timestamp -> prints invalid timestamp
-- invalid log level -> prints invalid level
-- unclosed quotes -> prints unclosed quotes in line ...
+- invalid timestamp -> prints `invalid timestamp`
+- invalid log level -> prints `invalid level`
+- unclosed quotes -> prints `unclosed quotes in line ...`
 
 ## File structure
 
