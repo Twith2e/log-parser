@@ -1,4 +1,4 @@
-2026-01-12T08:15:23Z INFO user=102 action=login msg="User logged in successfully"
+2026-01-12T08:15:23Z INFO user=102 action=login msg="User logged in successfully
 2026-01-12T08:16:01Z INFO user=105 action=view_page page=/dashboard msg="Dashboard viewed"
 2026-01-12T08:17:45Z WARN user=102 action=upload msg="Upload took longer than expected"
 2026-01-12T08:18:12Z ERROR user=108 action=payment msg="Payment failed due to timeout"
