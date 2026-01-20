@@ -18,7 +18,7 @@ It reads a log file line by line, validates timestamps and log levels, and extra
 ## Log Format
 
 Each log line should follow this structure:
-<timestamp> <level> key=value ...
+`<timestamp> <level> key=value ...`
 
 Example:
 2026-01-12T08:16:01Z INFO user=105 action=view_page page=/dashboard msg="Dashboard viewed"
@@ -46,9 +46,11 @@ Example:
 
 Sample output:
 
-timestamp: 2026-01-12 08:24:55 +0000 UTC
-level: ERROR
-fields: map[action:auth msg:Invalid token provided user:999]
+```bash
+    timestamp: 2026-01-12 08:24:55 +0000 UTC
+    level: ERROR
+    fields: map[action:auth msg:Invalid token provided user:999]
+```
 
 ## Error handling
 
